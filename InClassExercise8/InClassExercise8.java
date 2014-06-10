@@ -68,9 +68,7 @@ public class InClassExercise8 {
 			rate = threshold[i][1];
 			if (wage >= threshold[i][0]) {
 				tax += (wage - threshold[i][0]) * rate;
-				if (i != 0) {
-					wage = wage - (wage - threshold[i][0]);
-				} 
+				wage = wage - (wage - threshold[i][0]);
 			}
 		}
 		return tax;

@@ -1,6 +1,5 @@
 //Create a program to display the tax payable on a particular salary.
-//using a given tax system. note: uses ATO income tax thresholds as at
-//2014
+//using a given tax system. note: uses ATO income tax thresholds as at 2014.
 //@author Donovan Crichton
 
 import java.util.Scanner;
